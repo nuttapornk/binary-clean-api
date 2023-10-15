@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Nuttaporn",
+  "classifications": [
+    "API",
+    "ASP.NET",
+    "Clean Architecture"
+  ],
+  "name": "Clean Architecture Web API",
+  "identity": "Clean Architecture Web API",
+  "description": "Clean Architechture for RestFul Web API template",
+  "shortName": "binary-clean-api",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "symbols": {},
+  "sourceName": "_COMPONENT_",
+  "preferNameDirectory": true,
+  "sources": [
+    {
+      "source": "./",
+      "target": "./",
+      "exclude": [
+        "**/[Bb]in/**",
+        "**/[Oo]bj/**",
+        ".template.config/**/*",
+        ".vs/**/*",
+        "**/*.filelist",
+        "**/*.user",
+        "**/*.lock.json",
+        "**/.git/**",
+        "**/docs/**",
+        "*.nuspec",
+        "nuget.config",
+        "**/node_modules/**"
+      ]
+    }
+  ]
+}
